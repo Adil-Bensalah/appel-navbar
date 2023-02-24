@@ -1,0 +1,70 @@
+nav{
+    position: fixed;
+    top: 0;
+    width:100% ;
+    padding: 10px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 10px;
+
+}
+
+.liste  {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+flex-direction: row;
+justify-content: center;
+
+padding-top: 5px;
+
+}
+.liste span {
+    margin-right:30px ;
+    opacity: 0.7;
+ 
+}
+.liste span:hover{
+    opacity: 1;
+}
+
+.liste span a{
+    text-decoration: none;
+    color: #333336;
+}
+
+.serch{
+    margin-top: 6px;
+    width: 25px;
+    height: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.panier{
+    margin-top: 5px;
+    width: 25px;
+    height: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.appel-logo{
+    width: 25px;
+    opacity: 0.7;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+.appel-logo:hover{
+    opacity: 1;
+}
+.panier:hover{
+    opacity: 1;
+}
+
+.serch:hover{
+    opacity: 1;
+}
